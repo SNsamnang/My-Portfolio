@@ -108,7 +108,7 @@ a .gmail {
 }
 
 .left-containner {
-  width: 40%;
+  width: 400px;
   height: 400px;
   margin-left: 5%;
   border-radius: 10px;
@@ -120,6 +120,7 @@ a .gmail {
   padding: 50px 0px;
   box-sizing: border-box;
   float: left;
+  margin-top:50px
 }
 .left-containner h1 {
   font-size: 50px;
@@ -136,10 +137,11 @@ a .gmail {
   height: 400px;
 }
 .right-picture {
-  width: 24%;
+  width: 300px;
   height: 400px;
   float: left;
   margin-left: 15%;
+  margin-top:50px;
 }
 .right-picture img {
   width: 100%;
