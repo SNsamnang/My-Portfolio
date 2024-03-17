@@ -97,7 +97,7 @@ a {
 }
 
 .left-containner {
-  width: 390px;
+  width: 370px;
   height: 400px;
   margin: 0 auto;
   margin-left: 5%;
@@ -125,7 +125,7 @@ a {
   width: 300px;
   height: 400px;
   float: left;
-  margin-left: 15%;
+  margin-left: 10%;
   margin-top: 50px;
 }
 .right-picture img {
