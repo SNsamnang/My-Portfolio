@@ -13,7 +13,7 @@ service.addEventListener("mousedown", () => {
   line1.style.width = "100%";
   service.style.color = "blueviolet";
 });
-service.addEventListener("blur", () => {
+service.addEventListener("mouseout", () => {
   line1.style.width = "0%";
   service.style.color = "white";
 });
@@ -22,7 +22,7 @@ work.addEventListener("mousedown", () => {
   line2.style.width = "100%";
   work.style.color = "blueviolet";
 });
-work.addEventListener("blur", () => {
+work.addEventListener("mouseout", () => {
   line2.style.width = "0%";
   work.style.color = "white";
 });
@@ -31,7 +31,7 @@ resume.addEventListener("mousedown", () => {
   line3.style.width = "100%";
   resume.style.color = "blueviolet";
 });
-resume.addEventListener("blur", () => {
+resume.addEventListener("mouseout", () => {
   line3.style.width = "0%";
   resume.style.color = "white";
 });
@@ -40,7 +40,7 @@ skill.addEventListener("mousedown", () => {
   line4.style.width = "100%";
   skill.style.color = "blueviolet";
 });
-skill.addEventListener("blur", () => {
+skill.addEventListener("mouseout", () => {
   line4.style.width = "0%";
   skill.style.color = "white";
 });
@@ -49,7 +49,7 @@ contact.addEventListener("mousedown", () => {
   line5.style.width = "100%";
   contact.style.color = "blueviolet";
 });
-contact.addEventListener("blur", () => {
+contact.addEventListener("mouseout", () => {
   line5.style.width = "0%";
   contact.style.color = "white";
 });
