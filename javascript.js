@@ -86,5 +86,5 @@ if (document.body.style.width > "1000px") {
 } else{
   
   text_img.style.width = "300px";
-  mypic.style.width = "300px";
+  mypic.style.width = "260px";
 }
