@@ -80,11 +80,11 @@ const widthbody = (document.body.offsetWidth);
  const widthbodypx=widthbody/2+"px"
 console.log(widthbodypx)
 
-if (document.body.style.width > "1000px") {
-  text_img.style.width = "50%";
-  mypic.style.width = "40%";
+if (document.body.style.width < "1000px") {
+  text_img.style.width = "100%";
+  mypic.style.width = "100%";
 } else{
   
-  text_img.style.width = "300px";
-  mypic.style.width = "260px";
+  text_img.style.width = "400px";
+  mypic.style.width = "250px";
 }
